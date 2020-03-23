@@ -67,7 +67,7 @@ session_start();
                         </div>
                         <div class="col-md-5">
                             <p>
-                                <h3>Ingrediants</h3>
+                                <h3>Ingredients</h3>
                                 <?php
                                     $chaine=",";
                                     $test = str_replace(",", "<br>",$result["ingredients"]);
