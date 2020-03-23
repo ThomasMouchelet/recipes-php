@@ -179,4 +179,10 @@ textarea.form-control {
   background-size: cover;
 }
 
+.delete {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */
