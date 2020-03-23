@@ -158,3 +158,16 @@ textarea.form-control {
     top: 20px;
     right: 20px;
 }
+.add-recipe{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #d15a4f;
+    font-size: 30px;
+    padding: 4px 14px;
+    border-radius: 100%;
+}
+.add-recipe:hover{
+    transition: all .3s;
+    background-color: #97443c;
+}

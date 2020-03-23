@@ -18,6 +18,9 @@ session_start();
                 disconnect
             </div>
         </a>
+        <a class="add-recipe" href="add-recipe.php">
+            <i class="fas fa-plus"></i>
+        </a>
     </nav>
 
     <div class="container">
