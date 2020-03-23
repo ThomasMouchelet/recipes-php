@@ -55,6 +55,9 @@ session_start();
             <a class="clone"  href="functions/clone.php?recipe_id=<?= $result["id"] ?>">
                 <i class="fas fa-clone"></i>
             </a>
+            <a class="edit" href="edit-recipe.php?recipe_id=<?= $result["id"] ?>">
+                <i class="fas fa-edit"></i>
+            </a>
             <div class="row">
                 <div class="col-md-3">
                     <img src="<?= $result["image_url"] ?>" alt="">

@@ -171,3 +171,14 @@ textarea.form-control {
     transition: all .3s;
     background-color: #97443c;
 }
+.edit{
+    position: absolute;
+    right: 100px;
+    top: 10px;
+    font-size: 1.5rem;
+    color: #95a5a6;
+    z-index: 9999;
+}
+.edit:hover{
+    color: #657172;
+}
