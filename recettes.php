@@ -50,6 +50,9 @@ session_start();
             <a class="delete" href="functions/delete.php?recipes_id=<?= $result["id"] ?>">
                 <i class="fas fa-trash"></i>
             </a>
+            <a class="clone"  href="functions/clone.php?recipe_id=<?= $result["id"] ?>">
+                <i class="fas fa-clone"></i>
+            </a>
             <div class="row">
                 <div class="col-md-3">
                     <img src="<?= $result["image_url"] ?>" alt="">
