@@ -10,6 +10,9 @@
     <video autoplay loop id="bgvid">
         <source src="dist/videos/video.mp4" type="video/mp4">
     </video>
+    
+
+    <h1>Login</h1>
 
     <form action="functions/loginAction.php" method="post">
         <input type="text" placeholder="Créer ma page de recette" name="pseudo">
