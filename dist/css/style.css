@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  font-family: "Roboto";
+}
+
+.nav-bar {
+  background: #d15a4f;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-bar:hover {
+  background: #df8880;
+  transition: all 0.3s;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav {
+  margin-bottom: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: #393c6d;
+}
+
+#login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#bgvid {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: -1;
+}
+
+#login form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+#login input[type=text] {
+  padding: 10px;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  outline: none;
+  transition: all 0.3s;
+  border: none;
+  padding: 14px;
+}
+
+::placeholder {
+  font-size: 1.1rem;
+}
+
+#login input[type=submit],
+.btn-primary {
+  border: none;
+  background: #d15a4f;
+  color: #fff;
+  padding: 10px;
+  font-size: 1.1rem;
+}
+
+#login input[type=submit]:hover,
+.btn-primary:hover {
+  cursor: pointer;
+  background: #df8880;
+}
+
+.messageFirst {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2rem;
+}
+
+.addRecette {
+  text-align: center;
+}
+
+.addRecette button {
+  border: none;
+  background-color: #1f864a;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+.addRecette button:hover {
+  background-color: #186839;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 2px 18px 0 rgba(0, 0, 0, 0.22);
+  margin: 10px 0;
+}
+
+.card .col-md-3:nth-of-type(1) {
+  overflow: hidden;
+}
+
+.card .col-md-3:nth-of-type(1) img {
+  height: 100%;
+}
+
+.message {
+  color: #e74c3c;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.delete, .clone {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #d15a4f;
+  z-index: 9;
+  font-size: 1.5rem;
+}
+
+.clone {
+  right: 50px;
+  color: #95a5a6;
+}
+
+.clone:hover {
+  color: #7f8c8d;
+}
+
+.delete:hover {
+  color: #df8880;
+}
+
+.addRecipe a {
+  background: #d15a4f;
+  color: #fff;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.addRecipe a:hover {
+  background-color: #df8880;
+}
+
+.addRecipe {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+textarea.form-control {
+  height: 300px;
+}
+
+#login {
+  background-image: url("../img/login.jpg");
+  background-size: cover;
+}
+
+/*# sourceMappingURL=style.css.map */
