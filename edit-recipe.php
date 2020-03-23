@@ -14,7 +14,7 @@
     $req->execute();
     $result = $req->fetch(PDO::FETCH_ASSOC);
 ?>
-    <form action="functions/edit-recipe-script.php" method="post">
+    <form action="functions/edit-recipe-script.php?recipe_id=<?= $_GET["recipe_id"] ?>" method="post">
         <input type="text" placeholder="Title" name="title" value="<?= $result["title"] ?>">
         <textarea placeholder="Ingredient 1; Ingredient 2; ..." name="ingredients" >
             <?= $result["ingredients"] ?>
